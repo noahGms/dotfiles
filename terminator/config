@@ -1,0 +1,32 @@
+[global_config]
+  handle_size = 0
+  tab_position = hidden
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#282a36"
+  title_inactive_fg_color = "#f8f8f2"
+  title_receive_bg_color = "#282a36"
+  title_receive_fg_color = "#8be9fd"
+  title_transmit_bg_color = "#282a36"
+  title_transmit_fg_color = "#bd93f9"
+  window_state = maximise
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      command = ""
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[Material-Palenight]]
+    background_color = "#292d3e"
+    cursor_color = "#ffcc00"
+    cursor_color_fg = False
+    font = Fira Code 10
+    foreground_color = "#a6accd"
+    palette = "#2e3436:#ff5370:#c3e88d:#ffcb6b:#82aaff:#c792ea:#89ddff:#d3d7cf:#555753:#f07178:#c3e88d:#f78c6c:#729fcf:#bb80b3:#89ddff:#eeeeec"
+    use_system_font = False
